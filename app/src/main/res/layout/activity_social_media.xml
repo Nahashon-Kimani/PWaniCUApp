@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_4"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".activity.SocialMedia">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/img_logo"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/cu_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/fb_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight=".15"
+            android:background="@drawable/fb_corner"
+            android:drawableStart="@drawable/fb"
+            android:drawableLeft="@drawable/fb"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/fb"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/whats_app"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight=".15"
+            android:background="@drawable/whatsapp_corner"
+            android:drawableStart="@drawable/whatsapp"
+            android:drawableLeft="@drawable/whatsapp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/fb"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/you_tube"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight=".15"
+            android:background="@drawable/you_tube_corner"
+            android:drawableStart="@drawable/you_tube"
+            android:drawableLeft="@drawable/you_tube"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/fb"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/telegram"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight=".15"
+            android:background="@drawable/telegram_corner"
+            android:drawableStart="@drawable/telegram"
+            android:drawableLeft="@drawable/telegram"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/fb"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/insta_gram"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight=".15"
+            android:background="@drawable/instagram_corner"
+            android:drawableStart="@drawable/instagram"
+            android:drawableLeft="@drawable/instagram"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/fb"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
